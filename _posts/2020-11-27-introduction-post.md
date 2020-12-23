@@ -3,7 +3,7 @@ title: "Introduction"
 description: 1
 ---
 
-<huawei-codelab-about codelab-title="Quick App with Push Kit" last-updated="2020-12-09T13:20:13-07:00" authors="Huawei Codelab Team">
+<huawei-codelab-about codelab-title="Quick App with Push Kit" last-updated="2020-12-23T13:20:13-07:00" authors="Huawei Codelab Team">
 
 <div class="codelab-title">
 <div class="token">Quick App with Push Kit</div></div>
