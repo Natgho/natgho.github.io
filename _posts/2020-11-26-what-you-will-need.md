@@ -6,23 +6,21 @@ description: 1
 	<strong>Hardware Requirements</strong>
 </h2>
 <ul>
-	<li>One PC with Android Studio installed</li>
-	<li>One mobile phone with a USB data cable for running developed apps</li>
+	<li>One computer (with Quick App IDE installed)</li>
+	<li>One Huawei phone (with a USB cable) is used to run applications in EMUI 8.0 or later.</li>
+    <li></li>
 </ul>
 <h2>
 	<strong>Software Requirements</strong>
 </h2>
 <ul>
-	<li>Android Studio 3.x or later version(<a href="https://developer.android.com/studio" target="_blank">Download</a>)</li>
+	<li>Node.js 6 or later has been installed on the PC. (Note: Do not use V8.0.X, whose ZipStream implementation is incompatible with node-archive. Otherwise, an error will occur.)</li>
   <li>Java JDK 1.8 or later version(<a href="https://www.oracle.com/java/technologies/javase-downloads.html" target="_blank">Download</a>)</li>
-	<li>EMUI 3.0 or later</li>
-	<li>HMS Core (APK) 5.0.0.300 or later</li>
+	<li>Install the latest Quick App IDE version on the PC.</li>
 </ul>
 <h2>
 	<strong>Required Knowledge</strong>
 </h2>
 <ul>
-	<li>Android development basics</li>
-	<li>Basic MVP architecture knowledge</li>
-  <li>Basic Kotlin language knowledge</li>
+	<li>Javascript and CSS</li>
 </ul>

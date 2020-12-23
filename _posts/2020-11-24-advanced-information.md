@@ -6,7 +6,7 @@ description: 5
 <ol type="1">
   <li><h3>Seekbar:</h3></li>
   <p>With the feature of Seekbar, displayed video can be rewound or forwarded. With Wise Player's seek feature videos can be played from a specified time.</p>
-  
+
 <p><strong>1. Locate following line in Play Activity.</strong></p>
 <pre><div id="copy-button33" class="copy-btn" title="Copy" onclick="copyCode(this.id)"></div><code>  //TODO Seekbar Change
 <span class="pln">
