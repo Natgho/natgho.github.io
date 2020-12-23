@@ -11,6 +11,8 @@ description: 15
 
 ![image-20201223155521269](../assets/integrate1.png)
 
+
+
 **Step 2:** Add the following configuration to the <script> on the page where the API will be called. You must add this to be able to use push functions on the page.
 
 ```javascript

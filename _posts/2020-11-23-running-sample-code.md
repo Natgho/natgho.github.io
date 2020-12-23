@@ -15,16 +15,14 @@ Protocol: HTTPS POST
 
 API URL: https://push-api.cloud.huawei.com/v1/[appid]/messages:send
 
-[^Note]: appId: unique ID allocated to a quick app created on AppGallery Connect. For details about how to obtain the app ID, please refer to [Obtaining the APP ID](https://developer.huawei.com/consumer/en/doc/development/quickApp-Guides/quickapp-create-quickapp#obtainAppID).
+> appId: unique ID allocated to a quick app created on AppGallery Connect. For details about how to obtain the app ID, please refer to [Obtaining the APP ID](https://developer.huawei.com/consumer/en/doc/development/quickApp-Guides/quickapp-create-quickapp#obtainAppID).
 
 **Step 3:** Request Parameters (HTTP Header)
-
-###  
 
 | **Parameter** | **Example**                                                  | **Description**                                              |
 | ------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | Content-Type  | application/json                                             | application/json                                             |
-| Authorization | Bearer  CF3Xl2XV6jMKZgqYSZFws9IPlgDvxqOfFSmrlmtkTRupbU2VklvhX9kC9JCnKVSDX2VrDgAPuzvNm3WccUIaDg== | The format is as follows:  Bearer+space+Access token.  If an access token contains backslashes (\),  remove all of them. |
+| Authorization | Bearer  CF3Xl2XV6jMKZgqYSZFws9IPlgDvxqOf<br />FSmrlmtkTRupbU2VklvhX9kC9JCnKVSDX2VrDgAPuzvNm3WccUIaDg== | The format is as follows:  Bearer+space+Access token.  If an access token contains backslashes (\),  remove all of them. |
 
 **API request parameter (HTTP body) example**
 
@@ -43,16 +41,12 @@ API URL: https://push-api.cloud.huawei.com/v1/[appid]/messages:send
 
 **Step 4:** API request parameter (HTTP body)
 
-###  
-
 | **Parameter** | **Type** | **Mandatory /Optional** | **Description**                                              |
 | ------------- | -------- | ----------------------- | ------------------------------------------------------------ |
 | validate_only | boolean  | Optional                | Indicates whether a  message is a test message. The test message is only used to verify format  validity and is not pushed to user devices. The options are as follows:  ·      **true**: test message.  ·      **false**: formal message.     The default value  is **false**. |
 | message       | object   | Mandatory               | Push message  structure. The message structure must contain the valid message payload and  valid sending object. For details about the fields, please refer to the table  of [Message structure](https://developer.huawei.com/consumer/en/doc/development/quickApp-Guides/quickapp-access-push-kit#message) definition. |
 
 **Message structure**
-
- 
 
 | **Parameter** | **Type** | **Mandatory/Optional** | **Description**                                              |
 | ------------- | -------- | ---------------------- | ------------------------------------------------------------ |
