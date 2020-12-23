@@ -1,7 +1,6 @@
 ---
 title: "Preparing for the Integration"
 description: 10
-
 ---
 
 

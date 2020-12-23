@@ -15,7 +15,7 @@ Protocol: HTTPS POST
 
 API URL: https://push-api.cloud.huawei.com/v1/[appid]/messages:send
 
-> appId: unique ID allocated to a quick app created on AppGallery Connect. For details about how to obtain the app ID, please refer to [Obtaining the APP ID](https://developer.huawei.com/consumer/en/doc/development/quickApp-Guides/quickapp-create-quickapp#obtainAppID).
+> **Note:** appId unique ID allocated to a quick app created on AppGallery Connect. For details about how to obtain the app ID, please refer to [Obtaining the APP ID](https://developer.huawei.com/consumer/en/doc/development/quickApp-Guides/quickapp-create-quickapp#obtainAppID).
 
 **Step 3:** Request Parameters (HTTP Header)
 
