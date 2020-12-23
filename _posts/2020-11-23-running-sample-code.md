@@ -2,10 +2,6 @@
 title: Send Data Message Notification from API (Server-side)
 description: 2
 ---
-<link rel="stylesheet" href="/assets/style.css">
-
-<script src="/assets/clipboard.min.js"></script>
-<script src="/assets/copy.js"></script>
 
 Sending data messages is only possible via the API.
 
@@ -26,7 +22,7 @@ API URL: https://push-api.cloud.huawei.com/v1/[appid]/messages:send
 | **Parameter** | **Example**                                                  | **Description**                                              |
 | ------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | Content-Type  | application/json                                             | application/json                                             |
-| Authorization | Bearer  CF3Xl2XV6jMKZgqYSZFws9IPlgDvxqOf<br />FSmrlmtkTRupbU2VklvhX9kC9JCnKVSDX2VrDgAPuzvNm3WccUIaDg== | The format is as follows:  Bearer+space+Access token.  If an access token contains backslashes (\),  remove all of them. |
+| Authorization | Bearer  CF3Xl2XV6jMKZgqYSZFws9IPlgDvxqOf<br />FSmrlmtkTRupbU2VklvhX9kC9JCnKVSDX2Vr<br />DgAPuzvNm3WccUIaDg== | The format is as follows:  Bearer+space+Access token.  If an access token contains backslashes (\),  remove all of them. |
 
 **API request parameter (HTTP body) example**
 
@@ -47,7 +43,7 @@ API URL: https://push-api.cloud.huawei.com/v1/[appid]/messages:send
 
 | **Parameter** | **Type** | **Mandatory /Optional** | **Description**                                              |
 | ------------- | -------- | ----------------------- | ------------------------------------------------------------ |
-| validate_only | boolean  | Optional                | Indicates whether a  message is a test message. The test message is only used to verify format  validity and is not pushed to user devices. The options are as follows:  ·      **true**: test message.  ·      **false**: formal message.     The default value  is **false**. |
+| validate_only | boolean  | Optional                | Indicates whether a  message is a test message. The test message is only used to verify format  validity and is not pushed to user devices. The options are as follows:  ·      <br />**true**: test message.       <br />**false**: formal message.     <br />The default value  is **false**. |
 | message       | object   | Mandatory               | Push message  structure. The message structure must contain the valid message payload and  valid sending object. For details about the fields, please refer to the table  of [Message structure](https://developer.huawei.com/consumer/en/doc/development/quickApp-Guides/quickapp-access-push-kit#message) definition. |
 
 **Message structure**

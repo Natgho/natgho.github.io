@@ -13,6 +13,10 @@ description: 1
 <div class="authors"><i class="material-icons">account_circle</i>Written by Huawei Codelab Team</div></div>
 </huawei-codelab-about>
 
+<link rel="stylesheet" href="/assets/style.css">
+<script src="/assets/clipboard.min.js"></script>
+<script src="/assets/copy.js"></script>
+
 Quick apps are a new form of installation-free apps developed based on industry standards. They are developed based on the frontend technology stack and support native rendering, therefore possessing the advantages of both HTML5 apps and native apps. Users do not need to install quick apps and only need to tap them to open and enjoy the same experience and performance as native apps. In this way you can create Quick App and send push notification to users for news or another information.
 
 ## About This Codelab
