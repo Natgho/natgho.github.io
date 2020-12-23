@@ -2,8 +2,11 @@
 title: "References"
 description: 1
 ---
-<ul>
-<li><a href="https://developer.huawei.com/consumer/en/doc/development/HMSCore-References-V5/overview-0000001050439393-V5" target="_blank">API Reference</a></li>
-<li><a href="https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides-V5/faq-0000001050199411-V5" target="_blank">FAQs</a></li>
-<li><a href="https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides-V5/dev-process-0000001050433889-V5" target="_blank">Development Guide</a></li>
-</ul>
+- [Start Guide](https://developer.huawei.com/consumer/en/doc/development/quickApp-Guides/quickapp-installtool)
+- [Development Guide](https://developer.huawei.com/consumer/en/doc/development/quickApp-Guides/quickapp-h5-to-quickapp)
+- [Release](https://developer.huawei.com/consumer/en/doc/development/quickApp-Guides/quickapp-app-release)
+- [FAQs](https://developer.huawei.com/consumer/en/doc/development/quickApp-Guides/quickapp-faq)
+- [Reference](https://developer.huawei.com/consumer/en/doc/development/quickApp-References/quickapp-filestructure)
+- [Push Kit Guide](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/quick-dev-0000001050042109)
+- [My First Quick App](https://developer.huawei.com/consumer/en/doc/development/quickApp-Guides/quickapp-first-quickapp)
+- [Quick App Access Push Kit](https://developer.huawei.com/consumer/en/doc/development/quickApp-Guides/quickapp-access-push-kit)

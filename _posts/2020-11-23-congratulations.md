@@ -3,10 +3,8 @@ title: "Congratulations"
 description: 1
 ---
 
-<p>Well done. You have successfully completed this Codelab and learned:</p>
-<ul>
-<li>How to initialize Wise Player</li>
-<li>How to use Video Kit SDK features</li>
-<li>How to use Seekbar View</li>
-<li>How to implement Handler</li>
-</ul>
+Well done. You have successfully completed this codelab and learned:
+
+- How to create a Quick App basically and how to integrate push kit into the Quick App
+- How to use the Quick App IDE and send Push Notifications.
+
