@@ -2,6 +2,10 @@
 title: Send Data Message Notification from API (Server-side)
 description: 2
 ---
+<link rel="stylesheet" href="/assets/style.css">
+
+<script src="/assets/clipboard.min.js"></script>
+<script src="/assets/copy.js"></script>
 
 Sending data messages is only possible via the API.
 
