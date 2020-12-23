@@ -7,5 +7,5 @@ You can download the codelab project from [here](https://github.com/Natgho/Quick
 
 **Step 1:** Create an app on AppGallery Connect. Don’t forget to select QuickApp option as the Platform type.
 
-![image-20201223152251624](..\assets\create_quick_app.png)
+![image-20201223152251624](../assets/create_quick_app.png)
 
