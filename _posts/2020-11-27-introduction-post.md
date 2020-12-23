@@ -13,7 +13,6 @@ description: 1
 <div class="authors"><i class="material-icons">account_circle</i>Written by Huawei Codelab Team</div></div>
 </huawei-codelab-about>
 
-<link rel="stylesheet" href="/assets/style.css">
 <script src="/assets/clipboard.min.js"></script>
 <script src="/assets/copy.js"></script>
 
