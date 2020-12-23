@@ -78,7 +78,7 @@ push.on({
 });
 ```
 
-![image-20201223161031796](../assets/push_kit6.png)
+<img src="../assets/push_kit6.png" alt="image-20201223161031796" style="width:300px;" />
 
 ## Turn Off Push Notifications
 
