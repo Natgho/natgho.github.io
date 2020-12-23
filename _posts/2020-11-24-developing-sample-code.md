@@ -9,9 +9,7 @@ description: 15
 {"name": "service.push"}
 ```
 
-![image-20201223155521269](../assets/integrate1.png)
-
-<img src="../assets/integrate1.png">
+<img src="../assets/integrate1.png" alt="image-20201223155521269" width="400" />
 
 **Step 2:** Add the following configuration to the <script> on the page where the API will be called. You must add this to be able to use push functions on the page.
 
@@ -19,8 +17,7 @@ description: 15
 import push from '@service.push'
 ```
 
-![image-20201223155648853](../assets/integrate2.png)
-<img src="../assets/integrate2.png">
+<img src="../assets/integrate2.png" alt="image-20201223155521269" width="400" />
 
 **Step 3:** To send push notifications, you must have a token. In order to receive tokens, you must add the subscribe function to your application:
 
@@ -38,6 +35,5 @@ push.subscribe({
 });
 ```
 
-![image-20201223155737154](../assets/integrate3.png)
-<img src="../assets/integrate3.png">
+<img src="../assets/integrate3.png" alt="image-20201223155521269" width="600" />
 
