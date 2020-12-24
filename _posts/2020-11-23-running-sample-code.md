@@ -15,14 +15,11 @@ Protocol: HTTPS POST
 
 API URL: https://push-api.cloud.huawei.com/v1/[appid]/messages:send
 
-> **Note:** appId unique ID allocated to a quick app created on AppGallery Connect. For details about how to obtain the app ID, please refer to [Obtaining the APP ID](https://developer.huawei.com/consumer/en/doc/development/quickApp-Guides/quickapp-create-quickapp#obtainAppID).
+**Note:** appId unique ID allocated to a quick app created on AppGallery Connect. For details about how to obtain the app ID, please refer to [Obtaining the APP ID](https://developer.huawei.com/consumer/en/doc/development/quickApp-Guides/quickapp-create-quickapp#obtainAppID).
 
 **Step 3:** Request Parameters (HTTP Header)
 
-| **Parameter** | **Example**                                                  | **Description**                                              |
-| ------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Content-Type  | application/json                                             | application/json                                             |
-| Authorization | Bearer  CF3Xl2XV6jMKZgqYSZFws9IPlgDvxqOf<br />FSmrlmtkTRupbU2VklvhX9kC9JCnKVSDX2Vr<br />DgAPuzvNm3WccUIaDg== | The format is as follows:  Bearer+space+Access token.  If an access token contains backslashes (\),  remove all of them. |
+<img src="../assets/codebase1.png" alt="codebase1" style="width:800px;" />
 
 **API request parameter (HTTP body) example**
 
